@@ -4,6 +4,7 @@ namespace Billet.Domain.Entities
     /// The types of subscription a customer may have.</summary>
     public enum SubscriptionType
     {
+        None,
         /// <summary>
         /// The TV subscription type.</summary>
         TV,
