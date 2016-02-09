@@ -1,9 +1,9 @@
-﻿namespace Billet.Service.Services
-{
-    using System.IO;
-    using System.Net;
-    using System.Text;
+﻿using System.IO;
+using System.Net;
+using System.Text;
 
+namespace Billet.Service.Services
+{
     public class BillingService : IBillingService
     {
         private readonly string _url;
