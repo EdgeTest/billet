@@ -85,18 +85,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Features\BillBreakdown.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BillBreakdown.feature</DependentUpon>
-    </Compile>
-    <Compile Include="Features\BillSummary.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BillSummary.feature</DependentUpon>
-    </Compile>
-    <Compile Include="Features\Helpers\XUnitMonkeyPatch.cs" />
-    <Compile Include="Features\Steps\BillSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitTests\Api\BillController\BillControllerContext.cs" />
     <Compile Include="UnitTests\Api\BillController\BreakdownTests.cs" />
@@ -104,14 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Features\BillBreakdown.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>BillBreakdown.feature.cs</LastGenOutput>
-    </None>
-    <None Include="Features\BillSummary.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>BillSummary.feature.cs</LastGenOutput>
-    </None>
     <None Include="packages.config" />
     <EmbeddedResource Include="UnitTests\Api\sample-bill.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
